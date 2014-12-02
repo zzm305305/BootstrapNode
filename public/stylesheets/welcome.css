@@ -1,0 +1,15 @@
+.container{width:100%;padding:0;margin: 0}
+.pull-right{float: left;position: absolute;z-index: 20;right: 10px;top:10px}
+.pull-right a{color: #fff;font-size: 16px;}
+canvas{
+  	background: -moz-radial-gradient(center, ellipse cover, rgba(255, 153, 153, 1) 0%, rgba(255, 100, 100, 1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255, 153, 153, 1)), color-stop(100%,rgba(255, 100, 100, 1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 153, 153, 1) 0%,rgba(255, 100, 100, 1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255, 153, 153, 1) 0%,rgba(255, 100, 100, 1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255, 153, 153, 1) 0%,rgba(255, 100, 100, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(255, 153, 153, 1) 0%,rgba(255, 100, 100, 1) 100%);
+    overflow-y:hidden;
+    overflow-x:hidden;
+    width:100%;
+    margin:0;
+}
